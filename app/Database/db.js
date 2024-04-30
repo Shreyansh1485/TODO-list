@@ -2,7 +2,7 @@
 const mongoose = require('mongoose');
 
 exports.connectMonggose =()=>{
-  mongoose.connect('mongodb+srv://Shreyansh_1485:55101020%40Gupta@cluster0.8gwvx3q.mongodb.net/todoapp2',
+  mongoose.connect('Your Mongo Url ',
   {
       useNewUrlParser: true
   })
